@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:500");
+
+body, html {
+  width: 100%;  
+  height: 100%;
+  margin: 0;
+  padding-bottom: 60px;  /* Add space for the title */
+}
+
+.back {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #efeff1;
+  z-index: -1;  /* This will move the back below other elements */
+}
+
+header {
+  position: fixed; 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;  
+  background-color: #b0aaaa;
+}
+
+.title {
+    position: relative; 
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin-top: 0.3rem;
+    justify-content: center;
+
+}
+
+nav {
+  position: fixed;
+  top: 120px; /* Adjust based on your title size */
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #16151b;
+  margin: 0 15px;
+  font-size: 19px;
+  letter-spacing: 1.5px;
+  position: relative;
+  display: inline-block;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+
