@@ -1,7 +1,9 @@
 body {
-    background-image: url('diamond.jpg');
+    background-image: url('pics/diamond.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
+    height: 100%;
 }
 
 .container {
