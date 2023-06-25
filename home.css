@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:500");
 
 body, html {
-  width: 100%;  
-  height: 100%;
-  margin: 0;
-  padding-bottom: 60px;  /* Add space for the title */
-}
+    display: flex;  /* <-- Added Flexbox */
+    flex-direction: column;  /* <-- Make elements stack vertically */
+    min-height: 100vh;  /* <-- Make sure it at least covers the full height of the viewport */
+    margin: 0;
+    padding: 0;
+  }
 
 .back {
   position: fixed;
@@ -13,13 +14,13 @@ body, html {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #efeff1;
   z-index: -1;  /* This will move the back below other elements */
 }
 
 header {
   position: fixed; 
   width: 100%;
+  height: 22%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,16 +32,17 @@ header {
     position: relative; 
     font-family: 'Dancing Script', cursive;
     font-size: 80px;
-    margin-top: 0.3rem;
+    margin-top: 3rem;
+    margin-left: 0.8rem;
     justify-content: center;
-
 }
 
 nav {
   position: fixed;
-  top: 120px; /* Adjust based on your title size */
+  top: 70px;
   width: 100%;
   text-align: center;
+  margin-left: 10rem;
 }
 
 nav a {
@@ -55,7 +57,138 @@ nav a {
   position: relative;
   display: inline-block;
   margin-top: 2rem;
-  margin-left: 3rem;
+  margin-left: 4rem;
 }
 
 
+.footer{
+    margin-top: 0;  /* <-- Pushes the footer to the bottom */
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+  }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+
+
+
+
+    body {
+        font-family: 'Play', sans-serif;
+      }
+      
+      .title {
+        text-align: center;
+        color: #333;
+      }
+      
+    
+      
+      nav a {
+        color: #333;
+        text-decoration: none;
+      }
+      
+      .categories {
+        display: flex;
+        justify-content: space-around;
+        padding: 2em 0;
+        margin-top: 150px;
+      }
+      
+      .category {
+        text-align: center;
+      }
+      
+      .category img {
+        width: 200px;
+        height: 200px;
+      }
+      
+      .footer {
+        background-color: #b0aaaa;
+        padding: 1em 0;
+      }
+      
+      .footer .row {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+      }
+      
+      .footer a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 0.5em;
+      }
+      
+      .footer ul {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .footer ul li {
+        margin: 0 1em;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* full height of the viewport */
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* the following rule will let the content grow to fill available space */
+    .content {
+        flex-grow: 1;
+    }
+      
