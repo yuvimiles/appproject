@@ -1,0 +1,58 @@
+.card {
+    width: 400px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 0; /* To make the card rectangle */
+    position: absolute;
+    top: 20%; /* Move the card 50% down from the top */
+     /* Adjust the left position as needed */
+    transform: translate(25%, 0%); /* Center the card horizontally and vertically */
+    transform-style: preserve-3d;
+      perspective: 1000px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      
+  }
+  *{
+    background-color: rgb(235, 235, 235);
+  }
+  .card-text{
+   
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .card-title{
+    font-size:xx-large;
+    color: rgb(237, 198, 151);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+  .btn-primary {
+    position: absolute;
+    bottom: 10px; /* Adjust the desired distance from the bottom */
+    right: 50px;
+    width: 300px;
+  }
+
+  .card2{
+    width: 500px; /* Adjust the width as needed */
+    height: 600px; /* Adjust the height as needed */
+    border-radius: 0; /* To make the card rectangle */
+    position: absolute;
+    top: 10%; /* Move the card 50% down from the top */
+     /* Adjust the left position as needed */
+    transform: translate(25%, 0%); /* Center the card horizontally and vertically */
+    transform-style: preserve-3d;
+      perspective: 1000px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      
+  }
+  #cashbutton{
+    color: black;
+    font-size: larger;
+    
+
+  }

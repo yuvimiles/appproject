@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paying Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Your details</h5>
+            <p class="card-text">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">First Name </span>
+                <input type="text" class="form-control" id="firstNameInput" placeholder="Your first name..." aria-label="Your first name..." aria-describedby="basic-addon1">
+                <span class="input-group-text" id="basic-addon2">Last Name</span>
+                <input type="text" class="form-control" id="lastNameInput" placeholder="Your last name..." aria-label="Your last name..." aria-describedby="basic-addon1">
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="genderRadio" id="maleRadio">
+                <label class="form-check-label" for="maleRadio">
+                  Male
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="genderRadio" id="femaleRadio" checked>
+                <label class="form-check-label" for="femaleRadio">
+                  Female
+                </label>
+              </div>
+              <div class="card-text">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon3">Address </span>
+                  <input type="text" class="form-control" id="addressInput" placeholder="Your address..." aria-label="Your address..." aria-describedby="basic-addon1">
+                </div>
+              </div>
+              <p class="card-text">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon4">ZIP </span>
+                  <input type="text" class="form-control" id="postalCodeInput" placeholder="ZIP" aria-label="ZIP" aria-describedby="basic-addon1">
+                  <span class="input-group-text" id="basic-addon5">City</span>
+                  <input type="text" class="form-control" id="cityInput" placeholder="Your city..." aria-label="Your city..." aria-describedby="basic-addon1">
+                </div>
+              </p>
+              <div class="card-text">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon6">Country </span>
+                  <input type="text" class="form-control" id="countryInput" placeholder="Your country..." aria-label="Your country..." aria-describedby="basic-addon1">
+                </div>
+              </div>
+              <div class="card-text">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon7">Email </span>
+                  <input type="text" class="form-control" id="emailInput" placeholder="Your email..." aria-label="Your email..." aria-describedby="basic-addon1">
+                </div>
+              </div>
+              <div class="card-text">
+                <div class="input-group mb-3">
+                  <span>
+                    <select class="form-select" id="phoneNumberPrefix" aria-label="Default select example">
+                      <option selected>050</option>
+                      <option value="1">050</option>
+                      <option value="2">051</option>
+                      <option value="3">052</option>
+                      <option value="4">053</option>
+                      <option value="5">054</option>
+                      <option value="6">055</option>
+                      <option value="7">056</option>
+                      <option value="8">057</option>
+                      <option value="9">058</option>
+                      <option value="10">059</option>
+                    </select>
+                  </span>
+                  <span class="input-group-text" id="basic-addon8">Phone Number </span>
+                  <input type="text" class="form-control" id="phoneInput" placeholder="Your phone number..." aria-label="Your phone number..." aria-describedby="basic-addon1">
+                </div>
+              </div>
+              <h5>Shipping Way</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="shippingRadio" id="printTicketRadio">
+                <label class="form-check-label" for="printTicketRadio">
+                  Print the ticket at home
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="shippingRadio" id="freeDeliveryRadio" checked>
+                <label class="form-check-label" for="freeDeliveryRadio">
+                  Free delivery for the ticket
+                </label>
+              </div>
+              <h5>Billing Information</h5>
+              <div class="card-text">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon7">ID Number </span>
+                  <input type="text" class="form-control" id="idNumberInput" placeholder="Your id number..." aria-label="Your id number..." aria-describedby="basic-addon1">
+                  
+                </div>
+              </div>
+              <div class="card-text">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon7">Credit Card Number </span>
+                  <input type="text" class="form-control" id="creditCardInput" placeholder="Your credit card number..." aria-label="Your credit card number..." aria-describedby="basic-addon1">
+                  
+                </div>
+              </div>
+              <p class="card-text">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon4">Expired Date </span>
+                  <input type="text" class="form-control" id="expiredDateInput" placeholder="Your Expired Date..." aria-label="Your Expired Date..." aria-describedby="basic-addon1">
+                  <span class="input-group-text" id="basic-addon5">Cvv</span>
+                   <input type="text" class="form-control" id="cvvInput" placeholder="Your cvv..." aria-label="Your cvv..." aria-describedby="basic-addon1">
+                </div>
+              </p>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+              <button id="cashbutton" class="btn btn-primary">Finish Reservation</button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="Pay.js"></script>
+  </body>
+  </html>
